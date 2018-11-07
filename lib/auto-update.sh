@@ -2,4 +2,5 @@
 
 set -e
 
-./lib/update-local-data.mjs && ./lib/commit-data.sh
+./lib/update-local-data.mjs
+./lib/commit-data.sh
