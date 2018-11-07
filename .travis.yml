@@ -1,0 +1,9 @@
+branches:
+  only:
+    - master
+language: bash
+script:
+- make auto-update
+env:
+  global:
+    secure: M+jdNKDmmWzQ8kzKQ036POJaiaYLYiFfMxHiaMf47WlOOHhchV9352cMXAf9wadYKY6nh8Xvs/88s6LkQbqAGmXSOqP0Z9u83hkfpUDVp0upRW+inv/kNFWWkAiah8uN7aVvqZd9Xesqctu2cid6qOkQyjv0Bcfa9q/CuBxGelUuR8hsq3VJbb/m467H9i1Rl4mYqSiqsxYG/Hb10M67s01d6SvJJKMIlGYUiFiADrz9tgHNlfZlvxwhpfDJtzTNNMCTFT7b09i/91x+lHbsdclkqVDRHZ/tNZbO7A4nFSlTWgN0LIuiaaEp/bXwAfPgJJie+xubOas2g6oGuJ5sZz+j174Wb31acmHaBpSF5/OMT/4G9cAYANxJB5naEhXU8UWYB856TPhNC/tWdGEZ33VT6o69LJlUfBkuLoh6wk+Pmk8NWdUeD9JruWDCM9EiXBjVzQPJK/fMJzAQ6dab93b8Nka/hfNNufC1iMrS9ZdUu7+79oIY+x9PMDkdPv/p4DO5ObvJ9tvZxhLOCxbC0BpeMK/PP/B1Idb0AEAdteqgixQziACOkwf9VLt7GEe+d6SznQl4Xxj0ankXy27XqQe5TZyennz584nacHS26PCC83RyWhzT9tGUffEoN6SXs60F5QN+TaKPikJZHFoHd62ijMyc2dAcRC1rUFIwWJc=
