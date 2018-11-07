@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"main": "lib/generate.mjs",
 	"scripts": {
-		"update": "lib/update"
+		"update": "lib/update.mjs"
 	},
 	"repository": {
 		"type": "git",
