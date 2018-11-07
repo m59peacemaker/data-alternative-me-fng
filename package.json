@@ -1,0 +1,21 @@
+{
+	"name": "alternative-me-fng-data",
+	"private": true,
+	"version": "1.0.0",
+	"main": "lib/generate.mjs",
+	"scripts": {
+		"update": "lib/update"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/m59peacemaker/alternative-me-fng-data"
+	},
+	"author": "Johnny Hauser <johnnyhauser@gmail.com>",
+	"license": "CC0-1.0",
+	"dependencies": {
+		"got": "^9.3.0",
+		"js-yaml": "^3.12.0",
+		"jsdom": "^13.0.0",
+		"ramda": "^0.25.0"
+	}
+}
