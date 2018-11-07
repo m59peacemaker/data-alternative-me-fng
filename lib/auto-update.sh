@@ -2,7 +2,7 @@
 
 set -e
 
-if [ "$TRAVIS_EVENT_TYPE" != "cron" ]; then;
+if [ "$TRAVIS_EVENT_TYPE" != "cron" ]; then
 	exit
 fi
 
