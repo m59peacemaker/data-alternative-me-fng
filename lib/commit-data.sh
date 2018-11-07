@@ -10,5 +10,5 @@ if [ -n "`git status fng.yaml -s`" ]; then
 	git add fng.yaml
 	git commit -m "FnG data update `date --iso-8601=minutes` [ci skip]"
 	git remote add data https://${GITHUB_TOKEN}@github.com/m59peacemaker/data-alternative-me-fng.git > /dev/null 2>&1
-	git push --quiet -u data master
+	git push --quiet data master
 fi
