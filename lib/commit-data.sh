@@ -2,8 +2,10 @@
 
 set -e
 
-git config user.email "travis@travis-ci.org"
-git config user.name "Travis CI"
+if [ "$TRAVIS" = "true" ]; then
+	git config user.email "travis@travis-ci.org"
+	git config user.name "Travis CI"
+fi
 
 if [ -n "`git status fng.yaml -s`" ]; then
 	echo 'comitting new data to git...'
