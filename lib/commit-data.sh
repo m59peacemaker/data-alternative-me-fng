@@ -8,6 +8,9 @@ if [ "$TRAVIS" = "true" ]; then
 fi
 
 if [ -n "`git status fng.yaml -s`" ]; then
+	echo 'bumping package version...'
+	npm version patch
+
 	echo 'comitting new data to git...'
 	git checkout master
 	git add fng.yaml
