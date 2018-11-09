@@ -9,7 +9,7 @@ fi
 
 if [ -n "`git status fng.yaml -s`" ]; then
 	echo 'bumping package version...'
-	npm version patch
+	npm --no-git-tag-version version patch
 
 	echo 'comitting new data to git...'
 	git checkout master
