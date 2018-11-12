@@ -12,5 +12,5 @@ for repo in $repos; do
 		-H "Travis-API-Version: 3" \
 		-H "Authorization: token $TRAVIS_CI_API_TOKEN" \
 		-d '{ "request": { "branch": "master" } }' \
-		https://api.travis-ci.com/repo/m59peacemaker%2F$repo/requests
+		https://api.travis-ci.org/repo/m59peacemaker%2F$repo/requests
 done
