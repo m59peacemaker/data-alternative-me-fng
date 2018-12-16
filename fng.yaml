@@ -635,3 +635,5 @@
   value: 10
 - timestamp: '2018-12-15'
   value: 11
+- timestamp: '2018-12-16'
+  value: 13
