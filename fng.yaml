@@ -669,3 +669,5 @@
   value: 26
 - timestamp: '2019-01-01'
   value: 24
+- timestamp: '2019-01-02'
+  value: 30
