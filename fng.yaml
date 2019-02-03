@@ -729,3 +729,5 @@
   value: 17
 - timestamp: '2019-02-01'
   value: 23
+- timestamp: '2019-02-02'
+  value: 22
