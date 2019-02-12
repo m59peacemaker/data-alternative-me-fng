@@ -747,3 +747,5 @@
   value: 42
 - timestamp: '2019-02-10'
   value: 40
+- timestamp: '2019-02-11'
+  value: 46
